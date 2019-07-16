@@ -7,7 +7,7 @@ public class E5 {
 		double input1 = scan.nextDouble();
 		System.out.println("Please enter another number. ");
 		double input2 = scan.nextDouble();
-		double product = input1 + input2;
+		double product = input1 * input2;
 		System.out.println("The product is " + product + ".");
 		scan.close();
 	}
